@@ -11,13 +11,12 @@ import Form from './Form';
 import Header2 from './HandWriteCom/Header2';
 import TODO from './HandWriteCom/TODO';
 import Pracice from './HandWriteCom/Pracice';
-import Recenttodo from './HandWriteCom/Recenttodo';
+import Recenttodo from './Recenttodo';
 
 const App = () => {
   return (
     <>
     <Recenttodo />
-    {/* <TODO / */}
    </>
 )}
 
