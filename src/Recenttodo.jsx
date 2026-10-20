@@ -63,7 +63,7 @@ const Recenttodo = () => {
                     </div>
                     <h3 className='text-gray-500 font-bold mt-2'>Manage Your Daily Tasks... </h3>
                     <div className="flex">
-                        <input value={todo} onChange={(e) => { onchange(e) }} type="text" className="mt-3 min-w-0 flex-1 rounded-xl border border-slate-200  bg-slate-50 px-4 py-3 text-base font-medium text-slate-800 outline-none transition-all placeholder:text-slate-400 focus:border-violet-500 focus:bg-white focus:ring-4 focus:ring-violet-100"  placeholder='+ Enter your tasks' />
+                        <input value={todo} onChange={(e) => { onchange(e) }} type="text" className="mt-3 min-w-0 flex-1 rounded-xl border border-slate-200  bg-slate-50 px-4 py-3 text-base font-medium text-slate-800 outline-none transition-all placeholder:text-slate-400 focus:border-violet-500 focus:bg-white focus:ring-4 focus:ring-violet-100"  placeholder='+ Enter your task' />
                         {editIndex === null ? (<button onClick={() => { handleAdd() }} className='bg-violet-600 mt-4 font-bold text-white w-20 h-10 ml-3 rounded-xl active:transition-all active:scale-90 active:bg-violet-800'>Add</button>) :
                             (<button onClick={() => { handleUpdate() }} className='bg-green-700 mt-4 font-bold text-white w-23 h-10 ml-3 rounded-xl active:transition-all active:scale-90 active:bg-violet-800'>Update</button>)
                         }
